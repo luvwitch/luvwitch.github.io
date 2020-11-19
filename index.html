@@ -1,15 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 
+  <title>Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Bootstrap Link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <!--Google Fonts and Fontawesome Icon Links-->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  
+  <!--CSS Link-->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
 <body>
 
-<h1>Alexandria Kelly's Page</h1>
+<!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg">   
+    <a class="navbar-brand">Alexandria Kelly</a>      
+    <ul class="navbar-nav w-100 justify-content-end">       
+     
+      <li>
+        <i class="fas fa-heart"></i>
+      </li>
+        
+      <li>
+        <a class="nav-link active" style="color: #9d4925;" href="index.html"><strong>About Me</strong></a>    
+      </li>
+
+      <li>
+        <i class="fas fa-heart"></i>
+      </li>
+  
+      <li>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+        <a class="nav-link" href="contact.html">Contact</a>      
+      </li>
+
+    </ul>    
+  </nav>
+ <!-- /navbar --> 
+
+<!--About Info-->
+
+<!--Container Title-->
+   
+  <h1 class="title"> About Me </h1>  
+
+  <div class="container" id="aboutme">            
+    <div class="row">
+<!--Picture of Me-->    
+      <div class="col-md-6" id="photo">
+        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/68782889_10158616859962786_8058054865789648896_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=DVD4UZb9yLMAX8nepCE&_nc_ht=scontent-lax3-1.xx&oh=677cd662258f5cc0e9c9a326e473a39d&oe=5FBB3296" alt="me" style="max-width:100%;height:auto">
+      </div> 
+
+<!--Welcome Box-->
+      <div class="col-md-6" id="welcome"> 
+        <div class="jumbotron">
+          <h2> Welcome! </h2>
+          <br>
+          <p>My name is Alexandria Kelly, though I prefer to be called Alex or AK.</p> 
+          <p>I'm originally from Buffalo, NY but as of July 2020 I moved to sunny Los Angeles!</p>
+          <p>Currently I'm a student of the UCLA Extention Coding Bootcamp. </p>
+          <i class="fas fa-heart"></i>    
+        </div>     
+      </div>        
+    </div>
+    <!-- /row 1 -->
+
+    <!-- Row 2-->
+    <div class="row">
+      <div class= "col-md-12">
+        <div class="card" id="aboutcard">
+          <div class="card-body landing-about" id="about">
+            <h2> Passions, Resume, & Skills</h2>
+            <br>
+            <p style="color: #af533b;"><strong> Passions: </strong></p> 
+            <p>Knitting, Crocheting, Weaving, Gaming, Reading, Film and TV, Roller Skating, Caring for my rabbits (Boba and Miso), Learning everything I can, Trying every new vegan food on the market </p>          
+            <p style="color: #af533b;"><strong> Skills: </strong></p> 
+            <p> HTML, Javascript, CSS, JQuery, Web APIs, NodeJS, and through my course I expand on my coding knowledge every day!</p>           
+            <p style="color: #af533b;"><strong> Resume: </strong></p> 
+            <p> (link to pdf) </p>
+            <br>
+                   
+          </div>          
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!--Sticky Footer-->
+
+<div class="footer">
+    
+    <div class="container" style="color:#9d4925">
+        <p><strong>Alex Kelly, The Coding Bootcamp 2020</strong></p>
+    </div>
+    
+</div> 
+
+<!--Bootstrap Script-->
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> 
 
 </body>
 </html>

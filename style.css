@@ -1,0 +1,140 @@
+  body{
+      background-image: url("https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-1.2.1&w=1000&q=80");
+      background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: .2rem;
+  }
+  
+  #contact-form,
+  #contact {
+      background-color:#9c9e90;
+      color: #3c5c36;
+      font-size: 1.5rem;            
+      padding: 20px;
+      box-shadow: 3px 3px 10px 3px #af533b;      
+  }
+
+  #contact-form {
+    text-align: left;
+    margin-top: 2%;
+  }
+
+  #contact{
+    opacity: .95;
+    text-align: center;
+    margin-top: 70px;
+    border-radius: 25px;
+  }
+
+  .navbar{
+    color: #212529;
+   background-color:#9c9e90;
+    opacity: .85;
+    letter-spacing: .5rem;
+
+  }
+  
+  .navbar-brand {
+    color:#212529;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+
+  .nav-link {
+      color: white;
+      font-size: 1.5rem;
+  }
+
+  i.fas.fa-heart {
+    color: #af533b;    
+  }
+
+  i.fab.fa-linkedin,
+  i.fas.fa-mobile-alt,
+  i.fab.fa-github,
+  i.far.fa-envelope {
+    color: #9d4925;
+    font-size: 3rem;
+  } 
+
+  h1 {
+      font-size: 4rem;
+      margin: 2% auto;
+      text-align: center;
+      text-shadow: 2px 2px 20px #faf7f6, 2px 2px 20px rgb(248, 247, 247);
+  }
+
+  h2 {
+   text-align: center;
+   color: #212529;
+  }
+
+  img {
+      border-radius: 360px;
+  }
+  
+ #welcome {
+     opacity: .9;
+     margin-top: 5%;     
+     color: white;
+     font-size: 1.2rem;
+     text-align: center;
+ }
+ .jumbotron {
+    border-radius: 360px;
+    background-color:#9c9e90;
+ }
+
+ #aboutcard {
+     margin: 1% auto;
+     opacity: .9;
+     border-radius: 20px 50px;
+     text-align: center;
+     font-size: 1.2rem;
+     background-color: #9c9e90;
+     color: white;
+ }
+
+ .about-me {
+     margin-top: 100px;
+     padding: 20px;  
+    }
+
+ #portfolio {
+     margin-top: 100px;
+     padding: 20px;
+     background-color: transparent;
+    }
+
+ #future {
+     text-align: center;
+     font-size: 1.5rem;
+     background-color:#9c9e90;
+     color: white;
+     opacity: .9;
+     padding: 3%;
+     border-radius: 50%;
+
+ }
+  
+
+  .footer{
+      position:sticky;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+  }
+
+  a:hover {
+    color:#3c5c36;
+  }
+
+  .repolink {
+    font-size: 2rem;
+    background-color: #9c9e90;
+    color: white;
+    opacity: .83;
+    padding: 2%;
+    border-radius: 30px;    
+  }

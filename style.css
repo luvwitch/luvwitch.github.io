@@ -138,3 +138,15 @@
     padding: 2%;
     border-radius: 30px;    
   }
+
+  .btn-primary{
+    border: 0%; 
+    color:white; 
+    background-color: #af533b;
+    border-color: white;
+  }
+
+  #contactheader {
+    padding: 3%;
+    
+  }

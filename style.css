@@ -126,11 +126,14 @@
 
   .footer{
       flex-shrink: 0;
-      opacity: .7; 
       margin: auto;
       text-align: center;
   }
 
+  .end:hover{
+    color: white;
+  }
+ 
   a:hover {
     color:#3c5c36;
   }
